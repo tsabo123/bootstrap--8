@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Satoshi-Regular" ;
+    src: url(./fonts/Satoshi-Regular.otf);
+}
+
+.card-title {
+    font-family: 'Satoshi-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #2A254B;
+}
+.card-text {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #505977;
+}
+.white {
+    
+    
+    
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    
+    color: #2A254B;
+}
+@media screen  and (max-width:768px){
+    
+    .btn  {
+        width: 100%!important;
+        text-align: center;
+    }
+    .white {
+        
+        align-items: center;
+        text-align: center;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+        
+        
+        color: #2A254B;
+    }
+}
