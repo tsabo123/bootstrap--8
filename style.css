@@ -21,6 +21,9 @@
     
     color: #505977;
 }
+.btn {
+    background-color: #FFFFFF;
+}
 .white {
     
     
@@ -36,13 +39,21 @@
     color: #2A254B;
 }
 @media screen  and (max-width:768px){
+    .col-md-6 {
+        background-color: #FFFFFF!important;
+    }
+    .card-body {
+        background-color: #FFFFFF!important;
+
+    }
     
     .btn  {
         width: 100%!important;
         text-align: center;
+        background: #F9F9F9 !important;
     }
     .white {
-        
+       
         align-items: center;
         text-align: center;
         font-family: 'Satoshi';
