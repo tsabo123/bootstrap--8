@@ -2,7 +2,13 @@
     font-family: "Satoshi-Regular" ;
     src: url(./fonts/Satoshi-Regular.otf);
 }
+body {
+    background-image: url(50\ 50\ Split.jpg);
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
 
+}
 .card-title {
     font-family: 'Satoshi-Regular';
     font-style: normal;
@@ -38,6 +44,8 @@
     
     color: #2A254B;
 }
+
+
 @media screen  and (max-width:768px){
     .col-md-6 {
         background-color: #FFFFFF!important;
