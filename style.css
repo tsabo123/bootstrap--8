@@ -40,8 +40,6 @@ body {
 }
 .white {
     
-    
-    
     font-family: 'Satoshi-Regular';
     font-style: normal;
     font-weight: 400;
@@ -93,6 +91,10 @@ body {
         margin-top:47px ;
         margin-inline: center;
         
+    }
+    .box{
+        display: flex;
+        flex-direction: column-reverse !important;
     }
     
 }
