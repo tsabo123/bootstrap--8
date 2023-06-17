@@ -2,24 +2,29 @@
     font-family: "Satoshi-Regular" ;
     src: url(./fonts/Satoshi-Regular.otf);
 }
+@font-face {
+    font-family: "ClashDisplay-Regular" ;
+    src: url(./fonts/ClashDisplay-Regular.ttf);
+}
 body {
     background-image: url(50\ 50\ Split.jpg);
     height: 100vh;
     background-repeat:no-repeat;
     background-size: cover;
+    
 
 }
 .card-title {
-    font-family: 'Satoshi-Regular';
+    font-family: 'ClashDisplay-Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
-    
+    padding-bottom: 21px;
     color: #2A254B;
 }
 .card-text {
-    font-family: 'Satoshi';
+    font-family: 'Satoshi-Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -28,13 +33,16 @@ body {
     color: #505977;
 }
 .btn {
+    width: 170px;
+    margin-top: 36px;
     background-color: #FFFFFF;
+    text-align: center;
 }
 .white {
     
     
     
-    font-family: 'Satoshi';
+    font-family: 'Satoshi-Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -43,6 +51,10 @@ body {
     
     
     color: #2A254B;
+}
+.cont-text {
+    margin-top: 225px;
+   margin-inline: 99px;
 }
 
 
@@ -64,7 +76,7 @@ body {
        
         align-items: center;
         text-align: center;
-        font-family: 'Satoshi';
+        font-family: 'Satoshi-Regular';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -74,4 +86,18 @@ body {
         
         color: #2A254B;
     }
+    body{
+        height: auto;
+    }
+    .cont-text {
+        margin-top:47px ;
+        margin-inline: center;
+        
+    }
+    
 }
+@media screen  and (min-width:768px){
+    .image{
+     display: none;
+    }
+ }
